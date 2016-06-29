@@ -1,5 +1,5 @@
 {
-    "name": "proj4php/proj4php",
+    "name": "roissard/proj4php",
     "license": "LGPL-2.1",
     "type": "library",
     "description": "A PHP-Class for geographic coordinates transformation using proj4 definitions, thanks to a translation from Proj4JS",

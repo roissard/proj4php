@@ -156,7 +156,7 @@ class Proj
                 ($urn[2] == 'def') &&
                 ($urn[3] == 'crs')
             ) {
-                $srsCode = $urn[4] . ':' . $urn[strlen($urn) - 1];
+                $srsCode = $urn[4] . ':' . $urn[count($urn) - 1];
             }
         } elseif (strpos($srsCode, 'http://') === 0) {
             //url#ID

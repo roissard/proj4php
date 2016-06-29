@@ -239,6 +239,7 @@ class Proj
                 strtoupper($this->srsAuth) . ':' . $this->srsProjNumber,
                 $this->proj4php->loadScript($url)
             );
+            $this->defsLoaded();
         } catch (Exception $e) {
             $this->defsFailed();
         }
